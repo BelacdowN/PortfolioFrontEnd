@@ -1,0 +1,22 @@
+.navbar.navbar-expand-lg.bg-primary{
+    background-color: rgba(32, 107, 45, 0.671) !important;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: lightblue;
+}
+.fa-instagram:hover{
+    color: violet;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+.fa-user:hover{
+    color: rgb(121, 66, 66);
+}
+
+.navbar-nav{
+    margin-left: 0 !important;
+}
