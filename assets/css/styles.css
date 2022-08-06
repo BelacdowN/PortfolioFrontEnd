@@ -1,5 +1,11 @@
-.navbar.navbar-expand-lg.bg-primary{
-    background-color: rgba(32, 107, 45, 0.671) !important;
+body{
+    background-image: url(../img/FondoPC.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.navbar.navbar-expand-lg{
+    background-color: rgba(32, 107, 45, 0.671) ;
 }
 .fa-facebook:hover{
     color: blue;
@@ -17,6 +23,3 @@
     color: rgb(121, 66, 66);
 }
 
-.navbar-nav{
-    margin-left: 0 !important;
-}
