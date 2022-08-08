@@ -1,7 +1,14 @@
+
+
 body{
     background-image: url(../img/FondoPC.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.acercaDe{
+ background-color: rgba(32, 107, 45, 0.301);
 }
 
 .navbar.navbar-expand-lg{
@@ -23,3 +30,6 @@ body{
     color: rgb(121, 66, 66);
 }
 
+.profileImage{
+       box-shadow: 5px 5px rgba(24, 21, 21, 0.945);
+}
