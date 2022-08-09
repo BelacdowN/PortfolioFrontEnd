@@ -37,3 +37,7 @@ body{
 .profileImage{
        box-shadow: 5px 5px rgba(24, 21, 21, 0.945);
 }
+
+.panel{
+    margin-top: 9rem;
+}
