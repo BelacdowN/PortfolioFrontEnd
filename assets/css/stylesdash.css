@@ -1,9 +1,6 @@
 
 
 body{
-    background-image: url(../img/FondoPC.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
     font-family: 'Barlow Semi Condensed', sans-serif;
     
 }
@@ -31,7 +28,7 @@ body{
     color: rgb(209, 164, 123);
 }
 .fa-user:hover{
-    color: rgb(121, 66, 66);
+    color: rgb(247, 243, 48);
 }
 
 .profileImage{
