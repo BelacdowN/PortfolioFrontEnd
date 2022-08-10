@@ -42,3 +42,7 @@ body{
        margin-top: -8rem;
        margin-left: 1rem;
 }
+
+.col-10.navbar-nav{
+   width: initial;
+}
