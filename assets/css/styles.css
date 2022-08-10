@@ -1,23 +1,29 @@
 
-
+/* configuración del body*/
 body{
     background-image: url(../img/fondoPaisaje.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    
+    margin: 1rem;
 }
 
-/* estilo de seccion */
+/* estilo de secciones */
 .acercaDe{
  background-color: rgba(32, 107, 45, 0.301);
 }
 
-/* estilo barra de navegacion y botones */
+/* estilo barra de navegacion */
 .navbar{
     background-color: rgba(32, 107, 45, 0.795) ;
     height: 5rem;
 }
+
+/* estilo de iconos de navbar */
+.col-10.navbar-nav{
+    width: initial;
+ }
+
 .fa-facebook:hover{
     color: blue;
 }
@@ -37,12 +43,15 @@ body{
     color: rgb(247, 243, 48);
 }
 
+/* estilos de imagen de perfil */
 .profileImage{
-       box-shadow: 5px 5px rgba(24, 21, 21, 0.945);
+       box-shadow: 6px 6px 5px 2px rgba(24, 21, 21, 0.945);
        margin-top: -8rem;
        margin-left: 1rem;
 }
 
-.col-10.navbar-nav{
-   width: initial;
+/* editor de boton de edición de Banner */
+.btn.btn-close-white.editBanner{
+    position: absolute;
+    margin-left: -3rem;
 }
