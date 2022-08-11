@@ -13,16 +13,18 @@ body{
  background-color: rgba(32, 107, 45, 0.301);
 }
 
-/* estilo barra de navegacion */
+/* boton login modal */
+.btn.btnLogin{
+    background-color: rgba(32, 107, 45, 0.795);
+}
+
+/*navbar*/
 .navbar{
     background-color: rgba(32, 107, 45, 0.795) ;
     height: 5rem;
 }
 
-/* estilo de iconos de navbar */
-.col-10.navbar-nav{
-    width: initial;
- }
+/*iconos de navbar */
 
 .fa-facebook:hover{
     color: blue;
@@ -34,7 +36,7 @@ body{
     color: violet;
 }
 .fa-linkedin:hover{
-    color: white;
+    color: rgb(99, 154, 190);
 }
 .fa-github:hover{
     color: rgb(209, 164, 123);
@@ -43,15 +45,20 @@ body{
     color: rgb(247, 243, 48);
 }
 
-/* estilos de imagen de perfil */
+/*imagen de perfil */
 .profileImage{
        box-shadow: 6px 6px 5px 2px rgba(24, 21, 21, 0.945);
        margin-top: -8rem;
        margin-left: 1rem;
 }
 
-/* editor de boton de edición de Banner */
+/*boton de edición de Banner */
 .btn.btn-close-white.editBanner{
     position: absolute;
     margin-left: -3rem;
+}
+
+.btn.btn-close-white:hover,
+.btn.btn-close-white{
+    color: black;
 }

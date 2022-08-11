@@ -8,4 +8,6 @@ Se realiza el container del 'Acerca de' con boopstrap y css y se da formato
 
 Se prueba el dashboard para editar por ventanas modales
 
-Se avanza con el HTML del portfolio y se agregan secciones con estilos
+Se avanza con el HTML del portfolio y se agregan secciones con estilos, se corrige posición de banner a gusto
+
+Se completa información de secciones
