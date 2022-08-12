@@ -47,11 +47,7 @@
           <li class="nav-item"> <!-- Button trigger modal -->
             <a class="nav-link text-white"><i class="fa-solid fa-user-slash fa-xl" type="button"  data-bs-toggle="modal" data-bs-target="#loginModal"></i></a>
           </li>
-         
         </ul>
-        
-      </div>
-    </div>
   </nav>
   <br>
 
@@ -59,11 +55,13 @@
 <section id="sobreMi" class="sobreMi text-white">
   <div class="acercaDe container-fluid rounded shadow-sm mb-5 bg-body-transparent p-0">
     <img src="assets/img/FondoPC.jpg" alt="banner" width="100%" height="250rem" class="rounded-top banner">
-    <button type="submit" class="btn btn-close-white editBanner"><i class="fa-solid fa-pencil"></i></button>
+     <!-- Button trigger modal -->
+    <button type="button"  data-bs-toggle="modal" data-bs-target="#bannerModal" class="btn btn-close-white editBanner"><i class="fa-solid fa-pencil"></i></button> 
     <div class="row p-3">
     <div class="col-3">
       <img src="assets/img/profile.jpg" class="rounded-circle profileImage w-50" alt="profileImage"> 
-      <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+     <!-- Button trigger modal -->  
+      <button type="button"  data-bs-toggle="modal" data-bs-target="#profileModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
       <br>
       <h5 class="nombrePerfil">Heber Caleb Cuevas</h5>
       <h6 class="tituloPerfil">Desarrollador Web Full Stack Jr</h6>
@@ -72,7 +70,8 @@
       <h4 class="sobreMiPerfil">Buenas! Soy Heber Cuevas y vivo en Río Primero, provincia de Córdoba. Tengo experiencia en trabajos de administración en varias empresas, pero actualmente busco adentrarme en la rama del desarrollo web para crecer y progresar en mi carrera profesional. Aparte de esto soy músico, toco la guitarra y me gustan las motos.</h4>
     </div>
     <div class="col-1">
-      <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+      <!-- Button trigger modal -->  
+      <button type="button"  data-bs-toggle="modal" data-bs-target="#sobreMiModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
       <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
     </div>
   </div>
@@ -92,7 +91,8 @@
                 <h4>Auxiliar Administrativo en TEJAMAX SA orientado al sector mantenimiento, trabajos con normas ISO 9000 y 9001 en SGC, experiencia en cotizaciones de compra, atención a clientes y proveedores, controles de producción y stock, programación de mantenimientos preventivos, manejo de indicadores de mantenimiento y consumos, manejo de Office, manejo de dinero y rendiciones de caja, conducción de vehículos livianos.</h4>
               </div>
               <div class="col-1">
-                <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+                 <!-- Button trigger modal -->  
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#experienciaModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
               </div>
@@ -137,7 +137,8 @@
                 <h4>Facultad de Ciencias Exactas, Físicas y Naturales de la Universidad Nacional de Córdoba, la Carrera de TECNICO MECANICO ELECTRICISTA UNIVERSITARIO, cursado 1er año.</h4>
               </div>
               <div class="col-1">
-                <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+                <!-- Button trigger modal --> 
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
               </div>
@@ -222,7 +223,8 @@
                 </div>
                </div>
               <div class="col-1">
-                <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+                 <!-- Button trigger modal --> 
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#habilidadesModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button><br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
               </div>
@@ -243,7 +245,8 @@
                 <h4>Armado de login con campos y detalles sugeridos en trabajo práctico</h4>
               </div>
               <div class="col-1">
-                <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
+                <!-- Button trigger modal --> 
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#proyectosModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button> <br>
                 <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
               </div>
@@ -257,6 +260,251 @@
           </div>
         </section>         
         
+       <!--Modales-->
+
+         <!-- Modal Login-->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form> 
+                <!-- formulario de login-->
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Ingrese su correo electrónico</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text">Ingrese su contraseña</div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btnLogin">Iniciar Sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!-- Modal Banner -->
+  <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Editar Banner</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form> 
+                    <!-- formulario de banner-->
+                    <div class="mb-3">
+                      <label for="formFile" class="form-label">Modificar imagen de banner</label>
+                      <input class="form-control" type="file" id="formFile">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btnLogin">Guardar</button>
+            </div>
+          </div>
+        </div>
+  </div>
+
+     <!-- Modal Perfil -->
+     <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Editar Perfil</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form> 
+                  <!-- formulario de perfil-->
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Modificar imagen de perfil</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Modificar Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre nuevo">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Modificar Titulo</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Título nuevo">
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btnLogin">Guardar</button>
+          </div>
+        </div>
+      </div>
+</div>
+
+     <!-- Modal Sobre Mi -->
+     <div class="modal fade" id="sobreMiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Editar Texto Sobre Mi</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form> 
+                  <!-- formulario de Sobre Mi-->
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Modificar Sobre Mi</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btnLogin">Guardar</button>
+          </div>
+        </div>
+      </div>
+</div>
+
+<!-- Modal Experiencia -->
+<div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Experiencia</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form> 
+              <!-- formulario de experiencia-->
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Modificar Logo de Empresa</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Cargo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Periodo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: MM.AAAA-MM.AAAA">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Modificar Información de Cargo</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btnLogin">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Educación -->
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form> 
+              <!-- formulario de educación-->
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Modificar Logo de Instituto</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Estudio</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Periodo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: MM.AAAA-MM.AAAA">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Modificar Información de Estudio Realizado</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btnLogin">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Habilidades -->
+<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Habilidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form> 
+              <!-- formulario de habilidad-->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Halilidad</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre nuevo">
+              </div>
+                <label for="customRange2" class="form-label">Modificar Porcentaje de Manejo (Escala 0-100)</label>
+                <input type="range" class="form-range" min="0" max="100" id="customRange2" placeholder="Escala 0-100">
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btnLogin">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Proyectos -->
+<div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Proyecto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form> 
+              <!-- formulario de proyectos-->
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Modificar Logo de Proyecto</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Nombre de Proyecto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Modificar Periodo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: MM.AAAA-MM.AAAA">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Modificar Información de Proyecto Realizado</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btnLogin">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 

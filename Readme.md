@@ -1,4 +1,5 @@
-Buenas!
+# RepositorioFrontEnd
+Buenas! Este es mi proyecto de portfolio :sweat_drops:
 
 Comencé a hacer la nav-bar con boopstrap, linkeando booopstrap para la barra y el login, y fontawesome para los iconos. En el icono de user le agregué un modal para el login.
 
