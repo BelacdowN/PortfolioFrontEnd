@@ -50,6 +50,7 @@ body{
        box-shadow: 6px 6px 5px 2px rgba(24, 21, 21, 0.945);
        margin-top: -8rem;
        margin-left: 1rem;
+       min-width: 5rem;
 }
 
 /*boton de edición de Banner */
