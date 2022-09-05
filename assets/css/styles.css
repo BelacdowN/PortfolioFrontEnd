@@ -19,10 +19,31 @@ body{
  background-color: rgba(15, 53, 21, 0.733);
 }
 
-/* boton login modal */
+/* botones modal */
 .btn.btnLogin{
     background-color: rgba(32, 107, 45, 0.795);
 }
+.btn.btnCancel{
+    background-color: rgba(32, 105, 107, 0.795);
+}
+.btn.btnAgree{
+    background-color: rgba(32, 46, 107, 0.795);
+}
+.btn.btnMod{
+    background-color: rgba(107, 106, 32, 0.795);
+}
+.btn.btnDelete{
+    background-color: rgba(107, 32, 32, 0.795);
+}
+
+.btn.btnLogin,
+.btn.btnCancel,
+.btn.btnAgree,
+.btn.btnMod,
+.btn.btnDelete{
+    color: white;
+}
+
 
 /*navbar*/
 .navbar{
@@ -70,5 +91,7 @@ body{
 .btn.btn-close-white{
     color: black;
 }
+
+
 
 
