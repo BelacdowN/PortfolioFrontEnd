@@ -18,3 +18,5 @@ Se avanza en completar los modales y fomularios para los botones de edición.
 Se trabaja en los estilos para que la pagina sea responsive y quede bien tanto en escritorio como versión pantalla de celular.
 
 Se colocan identificadores a componentes de formularios de modales
+
+Se revisa código, se realiza base de datos en Json
